@@ -28,7 +28,7 @@ fun agoToText(name: String, sec: Int) {
         in 60 * 60 + 1..24 * 60 * 60 -> println("$name был(а) $h $resHours назад")
         in 24 * 60 * 60 + 1..(24 * 60 * 60) * 2 -> println("$name был(а) вчера")
         in ((24 * 60 * 60) * 2) + 1..24 * 60 * 60 * 3 -> println("$name был(а) позавчера")
-        else -> println("Был(а) давно")
+        else -> println("$name Был(а) давно")
     }
 
 }
